@@ -1,0 +1,164 @@
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+body{
+ font-family: "Montserrat";
+color:white;
+font-size:20px;
+  background-image: linear-gradient(to bottom right, rgb(89,89,89) ,rgb(63,63,63));
+  background-image: url("1.jpg");
+  background-size: 100% 100%;
+  filter: alpha(opacity=50);
+ 
+}
+
+
+input[type=text] {
+  border: none;
+  background: transparent;
+  margin: 8px 0;
+  font-size: 15px;
+  width: 100%;
+  padding: 0px 0px;
+
+  box-sizing: border-box;
+}
+
+input[type=text]:focus {
+  font-size: 20px;
+  background-image: linear-gradient(to bottom right, rgb(72,219,251) ,rgb(81,251,226));
+  box-shadow: rgb(rgb(81,251,226));
+  border:15px #21FDFE;
+  color: black;
+}
+
+input[type=password]{
+  border: none;
+  background: transparent;
+  margin: 8px 0;
+  font-size: 15px;
+  width: 100%;
+  padding: 0px 0px;
+
+  box-sizing: border-box;
+}
+a{
+
+}
+input[type=password]:focus {
+  font-size: 20px;
+  background-image: linear-gradient(to bottom right, rgb(72,219,251) ,rgb(81,251,226));
+  box-shadow: rgb(rgb(81,251,226));
+  border:15px #21FDFE;
+  color: black;
+}
+input[type=email]{
+  border: none;
+  background: transparent;
+  margin: 8px 0;
+  font-size: 15px;
+  width: 100%;
+  padding: 0px 0px;
+
+  box-sizing: border-box;
+}
+input[type=email]:focus {
+  font-size: 20px;
+  background-image: linear-gradient(to bottom right, rgb(72,219,251) ,rgb(81,251,226));
+  box-shadow: rgb(rgb(81,251,226));
+  border:15px #21FDFE;
+  color: black;
+}
+input[type=date] {
+  background-image: linear-gradient(to bottom right, rgb(72,219,251) ,rgb(81,251,226));
+  box-shadow: rgb(rgb(81,251,226));
+  border:15px #21FDFE;
+  color: black;
+}
+.new{
+  	
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  overflow: visible;
+  margin-left: auto;
+  margin-right: 10%;
+  margin-top: 3%;
+
+
+   background-color:rgb(61,61,61,0.9);
+   border-style:solid;
+   border-color:white;
+
+   box-shadow: 0 8px 16px 0 rgb(81,251,226,2), 0 0px 0px 0 rgba(0,0,0,0.19);
+
+}
+#no{
+	float:right;
+    width: 100%;
+      background-image: linear-gradient(to bottom right, rgb(72,219,251) ,rgb(81,251,226));
+	font-size: 20px;
+	font-family: 'Pacifico', cursive;
+  border: none;
+  color:black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+a:hover, a:active {
+  background-color: none;
+}
+
+#log{
+	font-size: 15px;
+	font-family: 'Comfortaa', cursive;
+	color: #606F80;
+	display:block;
+	text-align:center;
+
+}
+.main{
+	float: left;
+ font-family: "Montserrat";
+font-size: 30px;
+}
+
+#message {
+	float: right;
+	right:30px;
+	overflow: auto;
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 10px;
+  margin-top:15%;
+  font-size: 12px;
+  opacity: 50%;
+}
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content:none;
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: none;
+}
